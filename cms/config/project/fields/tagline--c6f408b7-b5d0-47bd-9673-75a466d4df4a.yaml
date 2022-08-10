@@ -1,0 +1,19 @@
+columnSuffix: ztozpoti
+contentColumnType: text
+fieldGroup: 3d9a043a-c39e-45b0-87ca-848b7f08ee38 # Homepage
+handle: tagline
+instructions: 'Appears under the headline on the homepage.'
+name: Tagline
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
