@@ -1,0 +1,25 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: a20fd408-b051-443e-bb1c-223bef6b7b0f # Adventures
+handle: location
+instructions: null
+name: Location
+searchable: false
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: 'Add a location'
+  showSiteMenu: false
+  source: 'group:1e47e007-7809-4e8e-afea-86a69bccb5fd' # Locations
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

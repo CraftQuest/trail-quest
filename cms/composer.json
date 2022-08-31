@@ -1,9 +1,10 @@
 {
   "require": {
     "craftcms/cms": "^4.0.0",
+    "craftcms/redactor": "^3.0",
+    "nystudio107/craft-vite": "^4.0.0",
     "vlucas/phpdotenv": "^5.4.0",
-    "yiisoft/yii2-redis": "^2.0.6",
-    "nystudio107/craft-vite": "^4.0.0"
+    "yiisoft/yii2-redis": "^2.0.6"
   },
   "require-dev": {
     "nystudio107/craft-autocomplete": "^1.0.0",

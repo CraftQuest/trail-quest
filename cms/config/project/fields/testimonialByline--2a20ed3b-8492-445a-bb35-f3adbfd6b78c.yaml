@@ -1,0 +1,58 @@
+columnSuffix: hvkzrcmw
+contentColumnType: text
+fieldGroup: 94752b5a-08c5-4d1a-8e6b-920cff64dc69 # Testimonials
+handle: testimonialByline
+instructions: null
+name: 'Testimonial Byline'
+searchable: false
+settings:
+  addRowLabel: 'Add a byline'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Full Name'
+            -
+              - handle
+              - fullName
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - Location
+            -
+              - handle
+              - location
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - ''
+        -
+          - col2
+          - ''
+  maxRows: 1
+  minRows: 1
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

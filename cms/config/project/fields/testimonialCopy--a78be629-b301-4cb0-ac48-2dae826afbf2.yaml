@@ -1,0 +1,19 @@
+columnSuffix: xacmqoyw
+contentColumnType: text
+fieldGroup: 94752b5a-08c5-4d1a-8e6b-920cff64dc69 # Testimonials
+handle: testimonialCopy
+instructions: null
+name: 'Testimonial Copy'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

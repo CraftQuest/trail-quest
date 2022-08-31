@@ -1,0 +1,46 @@
+defaultPlacement: end
+enableVersioning: true
+handle: adventures
+name: Adventures
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+  -
+    __assoc__:
+      -
+        - label
+        - 'Listing Page'
+      -
+        - urlFormat
+        - /adventures
+      -
+        - refresh
+        - '1'
+  -
+    __assoc__:
+      -
+        - label
+        - Homepage
+      -
+        - urlFormat
+        - /
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  5da841b1-ca0d-46ff-8bb1-04d6c889ac54:
+    enabledByDefault: true
+    hasUrls: true
+    template: adventures/_entry
+    uriFormat: 'adventures/{slug}'
+type: channel

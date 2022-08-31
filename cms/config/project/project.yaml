@@ -1,4 +1,22 @@
-dateModified: 1659545647
+dateModified: 1661367776
+elementSources:
+  craft\elements\Entry:
+    -
+      key: '*'
+      type: native
+    -
+      key: singles
+      type: native
+    -
+      heading: Channels
+      type: heading
+    -
+      disabled: false
+      key: 'section:9ea4c123-33d6-4c84-ac57-369d91f98030' # Adventures
+      tableAttributes:
+        - 'field:5b4c84db-5412-44b1-a47f-a6e46f8fb8b6' # Location
+        - link
+      type: native
 email:
   fromEmail: andrew@nystudio107.com
   fromName: Craft
@@ -14,15 +32,44 @@ fs:
 meta:
   __names__:
     1bcc60f5-0699-49dd-8eff-672d2df43aa4: Homepage # Homepage
+    1e47e007-7809-4e8e-afea-86a69bccb5fd: Locations # Locations
+    2a20ed3b-8492-445a-bb35-f3adbfd6b78c: 'Testimonial Byline' # Testimonial Byline
+    2ba867ba-0728-4db6-a173-4202c8891fec: FAQs # FAQs
+    2de1888f-c3b8-472a-95eb-0382ac937f1b: Text # Text
     3d9a043a-c39e-45b0-87ca-848b7f08ee38: Homepage # Homepage
+    03e4f8fb-c204-4930-8694-c79419c6fbbc: Testimonials # Testimonials
+    5b4c84db-5412-44b1-a47f-a6e46f8fb8b6: Location # Location
     5c642d7e-b16b-4836-9575-668d75d242e5: Site # Site
+    5ef34b6b-0af4-46b3-b54b-3a01335ea9a2: 'Rich Text' # Rich Text
     5f5284fc-b449-483f-ab7e-eb2ab59fc72d: Image # Image
+    9c4dff5e-2a52-41fd-90c1-25545eaea60d: Stat # Stat
+    9ea4c123-33d6-4c84-ac57-369d91f98030: Adventures # Adventures
+    38a6b564-bc0d-4c48-a475-a0414f026a39: Images # Images
+    46d3c66b-24a3-4472-9984-9c094697954b: Default # Default
     53ed4ec6-af5c-42a2-afad-80c9a997d531: 'Public Schema' # Public Schema
+    135d7d84-4a62-4878-b0ee-2b68ceb36e5b: 'Content Builder' # Content Builder
     0728feda-2f51-4566-a67f-7e3d1bd6ae5e: Headline # Headline
+    91204d07-0c7c-4b5e-9256-ad948030320a: 'Rich Text' # Rich Text
+    94044cae-f78a-4be0-9a9e-2c88677f9a34: URL # URL
+    94752b5a-08c5-4d1a-8e6b-920cff64dc69: Testimonials # Testimonials
+    85815122-80ae-4e19-bccb-34fcd09798ec: CTA # CTA
     a9a8c8df-e097-41ba-9ec2-7a8ec243f386: Homepage # Homepage
+    a20fd408-b051-443e-bb1c-223bef6b7b0f: Adventures # Adventures
+    a78be629-b301-4cb0-ac48-2dae826afbf2: 'Testimonial Copy' # Testimonial Copy
+    adf07699-5b56-4cd9-824e-e3f05bf8d827: FAQs # FAQs
+    b1d08bd3-5c18-453c-944b-d936c54e904d: About # About
+    b3815405-6950-4df5-8e1e-6646ad9e3607: Description # Description
     c6f408b7-b5d0-47bd-9673-75a466d4df4a: Tagline # Tagline
+    d0a3b785-579c-4865-8757-9091d1c0b284: Stats # Stats
+    d37d4976-f50d-4394-9c2f-7d9d492e10d9: Text # Text
+    e438548b-f4f0-431a-a905-0ae109986406: About # About
     ee385c12-292c-400e-9595-82fcee199ea3: Common # Common
+    f6cbf7ec-24dc-4308-a354-4be5a531f889: Default # Default
 plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
   vite:
     edition: standard
     enabled: true

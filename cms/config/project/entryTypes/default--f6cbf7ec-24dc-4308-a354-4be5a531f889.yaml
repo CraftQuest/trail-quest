@@ -1,0 +1,67 @@
+fieldLayouts:
+  cbac5c55-f95e-47fe-b55e-f85383cd2000:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: ec63ded0-6ea6-4e1d-8dfa-42ff496724a9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a78be629-b301-4cb0-ac48-2dae826afbf2 # Testimonial Copy
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 026d70a7-7287-4ad0-8a27-95f725ace8bd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2a20ed3b-8492-445a-bb35-f3adbfd6b78c # Testimonial Byline
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1cf8f9cd-1b3d-45bd-8350-9f59bea4af1b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 87775a4a-d880-4d72-90b6-06ed4aedeba8
+        userCondition: null
+handle: default
+hasTitleField: false
+name: Default
+section: 03e4f8fb-c204-4930-8694-c79419c6fbbc # Testimonials
+sortOrder: 1
+titleFormat: '{testimonialByline[0].fullName}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
