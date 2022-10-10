@@ -1,4 +1,4 @@
-dateModified: 1661367776
+dateModified: 1663005495
 elementSources:
   craft\elements\Entry:
     -
@@ -49,6 +49,7 @@ meta:
     53ed4ec6-af5c-42a2-afad-80c9a997d531: 'Public Schema' # Public Schema
     135d7d84-4a62-4878-b0ee-2b68ceb36e5b: 'Content Builder' # Content Builder
     0728feda-2f51-4566-a67f-7e3d1bd6ae5e: Headline # Headline
+    864cb9c2-7db6-4694-9e5c-7217d078ce79: 'Adventures Listing'
     91204d07-0c7c-4b5e-9256-ad948030320a: 'Rich Text' # Rich Text
     94044cae-f78a-4be0-9a9e-2c88677f9a34: URL # URL
     94752b5a-08c5-4d1a-8e6b-920cff64dc69: Testimonials # Testimonials
@@ -70,6 +71,11 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.3.0
+  seomatic:
+    edition: standard
+    enabled: true
+    licenseKey: 9BQ4EY1278JLK9C5ZMVQQOM9
+    schemaVersion: 3.0.11
   vite:
     edition: standard
     enabled: true

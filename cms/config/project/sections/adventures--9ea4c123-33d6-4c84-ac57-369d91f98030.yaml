@@ -42,5 +42,5 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: adventures/_entry
-    uriFormat: 'adventures/{slug}'
+    uriFormat: 'adventures/{location[0].slug}/{slug}'
 type: channel

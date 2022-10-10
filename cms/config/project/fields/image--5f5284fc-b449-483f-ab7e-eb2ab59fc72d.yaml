@@ -11,7 +11,7 @@ settings:
   allowUploads: true
   allowedKinds: null
   defaultUploadLocationSource: 'volume:5c642d7e-b16b-4836-9575-668d75d242e5' # Site
-  defaultUploadLocationSubpath: null
+  defaultUploadLocationSubpath: '{% if object.title | length %} {{title}} {% else %} {''chicken''} {% endif %}'
   localizeRelations: false
   maxRelations: 1
   minRelations: 1
@@ -33,7 +33,7 @@ settings:
         - class
         - craft\elements\conditions\assets\AssetCondition
   selectionLabel: 'Add an image'
-  showSiteMenu: false
+  showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
   source: null

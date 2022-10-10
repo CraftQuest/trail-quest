@@ -1,1 +1,93 @@
-<h1>{{ category.title }}</h1>
+{% extends '_layouts/_wrapper' %}
+
+{% block main %}
+    <main>
+        <div class="bg-white overflow-hidden">
+            <div class="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+                <div
+                        class="hidden lg:block bg-secondary absolute top-0 bottom-0 left-3/4 w-screen"
+                ></div>
+                <div
+                        class="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none"
+                >
+                    <div>
+                        <h1
+                                class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+                        >
+                            {{ category.title }}
+                        </h1>
+                    </div>
+                </div>
+                <div class="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
+                    {# Content #}
+                    <div class="mt-8 lg:mt-0">
+                        <div class="text-base max-w-prose mx-auto lg:max-w-none">
+                            <p class="text-lg text-gray-500">
+                                {{ category.description }}
+                            </p>
+                        </div>
+                        {# ------------
+                            MATRIX FIELD
+                           -------------
+                        #}
+                        {% for block in category.contentBuilder.all() %}
+                            {% switch block.type %}
+                            {% case 'stats' %}
+                                {# Stats #}
+                                <div class="mt-10">
+                                    <dl class="grid grid-cols-2 gap-x-4 gap-y-8">
+                                        {% for stat in block.stat %}
+                                            <div class="border-t-2 border-gray-100 pt-6">
+                                                <dt class="text-base font-medium text-gray-500">{{ stat.name }}</dt>
+                                                <dd class="text-3xl font-extrabold tracking-tight text-gray-900">{{ stat.value }}</dd>
+                                            </div>
+                                        {% endfor %}
+                                    </dl>
+                                </div>
+                                {#  End Stats #}
+                            {% case 'cta' %}
+                                {# Call to Action #}
+                                <div class="mt-10">
+                                    <a href="{{ block.ctaUrl }}" class="text-base font-medium text-primary">{{ block.text }} <span aria-hidden="true">&rarr;</span> </a>
+                                </div>
+                                {# End Call to Action #}
+                            {% case 'richText' %}
+                                {# Rich Text Content #}
+                                <div
+                                        class="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1"
+                                >
+                                    {{ block.text }}
+                                </div>
+                                {#  End Rich Text Content #}
+                                {# ------------
+                            END MATRIX FIELD
+                           ------------
+                                #}
+                            {% endswitch %}
+                        {% endfor %}
+                    </div>
+                    <div class="relative lg:row-start-1 lg:col-start-2">
+                        <div class="relative text-base mx-auto max-w-prose lg:max-w-none">
+                            {% set images = category.images.all() %}
+                            {% for image in images %}
+                                <figure class="mb-8">
+                                    <div class="aspect-w-12 aspect-h-7 lg:aspect-none">
+                                        <img
+                                                class="shadow-lg object-cover object-center lg:rotate-1 border-gray-200 border-8"
+                                                src="{{ image.url }}"
+                                                alt="{{ image.title }}"
+                                                width="1184"
+                                                height="1376"
+                                        />
+                                    </div>
+                                </figure>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% include '_shared/_adventures-listing' with {'title': 'Adventures in ' ~ category.title} %}
+        {% include '_shared/_locations' with {'currentLocation': category} %}
+    </main>
+{% endblock %}
