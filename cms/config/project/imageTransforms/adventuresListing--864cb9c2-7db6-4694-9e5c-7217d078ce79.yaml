@@ -1,0 +1,9 @@
+format: null
+handle: adventuresListing
+height: 400
+interlace: none
+mode: crop
+name: 'Adventures Listing'
+position: center-center
+quality: null
+width: 600

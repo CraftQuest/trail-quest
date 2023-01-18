@@ -1,0 +1,34 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 010de9bd-90a2-4734-9dee-4ae7f6753ee5 # Temp
+handle: show
+instructions: null
+name: Show
+searchable: false
+settings:
+  allowSelfRelations: false
+  localizeRelations: false
+  maxRelations: 1
+  minRelations: 1
+  selectionCondition:
+    __assoc__:
+      -
+        - elementType
+        - craft\elements\Entry
+      -
+        - fieldContext
+        - global
+      -
+        - class
+        - craft\elements\conditions\entries\EntryCondition
+  selectionLabel: 'Select a show'
+  showSiteMenu: false
+  source: null
+  sources:
+    - 'section:2f4bf479-c06d-4ef9-9fb5-8c136d2ad46b' # Shows
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

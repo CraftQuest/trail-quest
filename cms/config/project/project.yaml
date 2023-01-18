@@ -1,8 +1,18 @@
-dateModified: 1663005495
+dateModified: 1674081791
 elementSources:
   craft\elements\Entry:
     -
+      defaultSort:
+        - postDate
+        - desc
+      disabled: false
       key: '*'
+      tableAttributes:
+        - section
+        - postDate
+        - expiryDate
+        - author
+        - link
       type: native
     -
       key: singles
@@ -17,6 +27,56 @@ elementSources:
         - 'field:5b4c84db-5412-44b1-a47f-a6e46f8fb8b6' # Location
         - link
       type: native
+    -
+      defaultSort:
+        - postDate
+        - desc
+      disabled: false
+      key: 'section:03e4f8fb-c204-4930-8694-c79419c6fbbc' # Testimonials
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - author
+        - link
+      type: native
+    -
+      condition:
+        class: craft\elements\conditions\entries\EntryCondition
+        conditionRules:
+          -
+            class: craft\elements\conditions\entries\EditableConditionRule
+            uid: aa109e20-005b-484c-902b-c8c8b5d62dc5
+            value: true
+        elementType: craft\elements\Entry
+        fieldContext: global
+      defaultSort:
+        - title
+        - asc
+      key: 'custom:9b27ad66-750b-443f-b1da-0f018b21b5b9'
+      label: 'My Stuff'
+      tableAttributes: '-'
+      type: custom
+    -
+      condition:
+        class: craft\elements\conditions\entries\EntryCondition
+        conditionRules:
+          -
+            class: craft\elements\conditions\DateCreatedConditionRule
+            endDate: null
+            periodType: daysAgo
+            periodValue: null
+            rangeType: today
+            startDate: null
+            uid: 8caced5f-5865-47ac-b5e1-0725e3e936f9
+        elementType: craft\elements\Entry
+        fieldContext: global
+      defaultSort:
+        - title
+        - asc
+      key: 'custom:3fc06fef-aba8-4a8e-a40d-9e1f1ba33b42'
+      label: 'Today''s Work'
+      tableAttributes: '-'
+      type: custom
 email:
   fromEmail: andrew@nystudio107.com
   fromName: Craft
@@ -36,36 +96,56 @@ meta:
     2a20ed3b-8492-445a-bb35-f3adbfd6b78c: 'Testimonial Byline' # Testimonial Byline
     2ba867ba-0728-4db6-a173-4202c8891fec: FAQs # FAQs
     2de1888f-c3b8-472a-95eb-0382ac937f1b: Text # Text
+    2f4bf479-c06d-4ef9-9fb5-8c136d2ad46b: Shows # Shows
     3d9a043a-c39e-45b0-87ca-848b7f08ee38: Homepage # Homepage
     03e4f8fb-c204-4930-8694-c79419c6fbbc: Testimonials # Testimonials
+    4e8c55f7-fa36-4ee6-8451-05517a8c2aa8: 'Quote Content' # Quote Content
     5b4c84db-5412-44b1-a47f-a6e46f8fb8b6: Location # Location
     5c642d7e-b16b-4836-9575-668d75d242e5: Site # Site
+    5da841b1-ca0d-46ff-8bb1-04d6c889ac54: $SITE_NAME # $SITE_NAME
     5ef34b6b-0af4-46b3-b54b-3a01335ea9a2: 'Rich Text' # Rich Text
     5f5284fc-b449-483f-ab7e-eb2ab59fc72d: Image # Image
+    6c5e357a-4c18-47f1-9cc1-75633ab6982d: Attribution # Attribution
+    9af78419-748d-4583-bbc5-e727d515d20f: Videos # Videos
     9c4dff5e-2a52-41fd-90c1-25545eaea60d: Stat # Stat
     9ea4c123-33d6-4c84-ac57-369d91f98030: Adventures # Adventures
+    09ec7a93-95d3-4856-bb86-a87f035e6a70: Season # Season
+    010de9bd-90a2-4734-9dee-4ae7f6753ee5: Temp # Temp
+    16cc9828-d2e4-4afb-aa4e-4a643ed30c4c: Illustration # Illustration
     38a6b564-bc0d-4c48-a475-a0414f026a39: Images # Images
+    45ab96ff-936d-4fc6-9b0a-c98ea0118d91: 'Cross Sell Description' # Cross Sell Description
     46d3c66b-24a3-4472-9984-9c094697954b: Default # Default
     53ed4ec6-af5c-42a2-afad-80c9a997d531: 'Public Schema' # Public Schema
+    67d5b2f0-8713-49a6-a430-a66f5b707e79: 'Testimonial Entry' # Testimonial Entry
+    87a8d915-5614-4601-92a7-b166a7a40459: Caption # Caption
     135d7d84-4a62-4878-b0ee-2b68ceb36e5b: 'Content Builder' # Content Builder
+    199f41da-68be-4d54-96ca-65807438771d: Show # Show
     0728feda-2f51-4566-a67f-7e3d1bd6ae5e: Headline # Headline
-    864cb9c2-7db6-4694-9e5c-7217d078ce79: 'Adventures Listing'
+    864cb9c2-7db6-4694-9e5c-7217d078ce79: 'Adventures Listing' # Adventures Listing
+    03982eee-255b-4645-877c-77dce563bed7: Caption # Caption
+    8615be5b-037c-43d5-b656-fbf904465cbc: 'Entry Link' # Entry Link
+    50729fbd-cc5c-42d3-b13b-5f10f7593cf3: 'Chart Graphic' # Chart Graphic
     91204d07-0c7c-4b5e-9256-ad948030320a: 'Rich Text' # Rich Text
     94044cae-f78a-4be0-9a9e-2c88677f9a34: URL # URL
     94752b5a-08c5-4d1a-8e6b-920cff64dc69: Testimonials # Testimonials
     85815122-80ae-4e19-bccb-34fcd09798ec: CTA # CTA
+    a8efa116-d3f1-4fbb-92f1-0fd43cfca758: Seasons # Seasons
     a9a8c8df-e097-41ba-9ec2-7a8ec243f386: Homepage # Homepage
     a20fd408-b051-443e-bb1c-223bef6b7b0f: Adventures # Adventures
     a78be629-b301-4cb0-ac48-2dae826afbf2: 'Testimonial Copy' # Testimonial Copy
     adf07699-5b56-4cd9-824e-e3f05bf8d827: FAQs # FAQs
     b1d08bd3-5c18-453c-944b-d936c54e904d: About # About
+    b4f82da1-bc7b-42e4-8c69-d0cb53e6b7b6: Image # Image
     b3815405-6950-4df5-8e1e-6646ad9e3607: Description # Description
     c6f408b7-b5d0-47bd-9673-75a466d4df4a: Tagline # Tagline
+    c401bf76-6d4c-43f1-9cde-366e7b60af8d: Episodes # Episodes
     d0a3b785-579c-4865-8757-9091d1c0b284: Stats # Stats
     d37d4976-f50d-4394-9c2f-7d9d492e10d9: Text # Text
     e438548b-f4f0-431a-a905-0ae109986406: About # About
+    ed030820-ba22-4678-9fd4-226e6dc19545: 'Chart Caption' # Chart Caption
     ee385c12-292c-400e-9595-82fcee199ea3: Common # Common
     f6cbf7ec-24dc-4308-a354-4be5a531f889: Default # Default
+    f89601e9-4ba9-4a48-9e99-350aa9914912: $SITE_NAME # $SITE_NAME
 plugins:
   redactor:
     edition: standard
@@ -76,6 +156,67 @@ plugins:
     enabled: true
     licenseKey: 9BQ4EY1278JLK9C5ZMVQQOM9
     schemaVersion: 3.0.11
+    settings:
+      addHrefLang: true
+      addPaginatedHreflang: true
+      addXDefaultHrefLang: true
+      alwaysIncludeCanonicalUrls: false
+      cpTitlePrefix: ' '
+      cspNonce: ''
+      cspScriptSrcPolicies:
+        -
+          __assoc__:
+            -
+              - policy
+              - '''self'''
+      devModeCpTitlePrefix: ''
+      devModeTitlePrefix: ''
+      displayAnalysisSidebar: true
+      displayPreviewSidebar: true
+      enableJsonLdEndpoint: false
+      enableMetaContainerEndpoint: false
+      enableSeoFileLinkEndpoint: false
+      environment: live
+      excludeNonCanonicalUrls: false
+      generatorEnabled: true
+      headersEnabled: true
+      includeHomepageInBreadcrumbs: true
+      lowercaseCanonicalUrl: true
+      manuallySetEnvironment: false
+      maxDescriptionLength: 155
+      maxTitleLength: 70
+      metaCacheDuration: 0
+      pluginName: SEOmatic
+      regenerateSitemapsAutomatically: true
+      renderEnabled: true
+      separatorChar: '|'
+      sidebarDisplayPreviewTypes:
+        - google
+        - twitter
+        - facebook
+      siteGroupsSeparate: true
+      siteUrlOverride: ''
+      sitemapsEnabled: true
+      socialMediaPreviewTarget: true
+      submitSitemaps: true
+      truncateDescriptionTags: true
+      truncateTitleTags: true
+  shopify:
+    edition: standard
+    enabled: true
+    schemaVersion: 4.0.4
+    settings:
+      accessToken: $SHOPIFY_ACCESS_TOKEN
+      apiKey: $SHOPIFY_API_KEY
+      apiSecretKey: $SHOPIFY_API_SECRET_KEY
+      hostName: $SHOPIFY_HOST_NAME
+      template: gear/_entry
+      uriFormat: 'gear/{slug}'
+  spoon:
+    edition: standard
+    enabled: true
+    licenseKey: TB5X0ISX2FJVUMO3H83QMZGQ
+    schemaVersion: 4.0.0
   vite:
     edition: standard
     enabled: true

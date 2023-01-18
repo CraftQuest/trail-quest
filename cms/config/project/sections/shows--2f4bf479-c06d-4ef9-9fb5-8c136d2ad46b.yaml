@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
-handle: faqs
-name: FAQs
+handle: shows
+name: Shows
 previewTargets:
   -
     __assoc__:
@@ -19,6 +19,6 @@ siteSettings:
   5da841b1-ca0d-46ff-8bb1-04d6c889ac54: # $SITE_NAME
     enabledByDefault: true
     hasUrls: true
-    template: faqs.twig
-    uriFormat: faqs
-type: single
+    template: shows/_entry
+    uriFormat: 'shows/{slug}'
+type: channel
