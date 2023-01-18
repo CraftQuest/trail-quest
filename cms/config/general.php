@@ -41,4 +41,10 @@ return [
     'omitScriptNameInUrls' => true,
     'useEmailAsUsername' => false,
     'usePathInfo' => true,
+    'postCpLoginRedirect' => 'entries?source=custom%3A3fc06fef-aba8-4a8e-a40d-9e1f1ba33b42',
+    'cpHeadTags' => [
+        ['link', ['rel' => 'icon', 'href' => '/dist/assets/favicons/favicon.ico']],
+        ['link', ['rel' => 'icon', 'sizes' => '32x32', 'href' => '/dist/assets/favicons/favicon-32x32.png']],
+        ['link', ['rel' => 'apple-touch-icon', 'sizes' => '180x180', 'href' => '/dist/assets/favicons/apple-touch-icon-180x180.png']]
+    ]
 ];
