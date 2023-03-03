@@ -72,20 +72,20 @@
         },
         {
             "name": "commerceguys/addressing",
-            "version": "v1.4.1",
+            "version": "v1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/commerceguys/addressing.git",
-                "reference": "8b1bcd45971733e8f4224e539cb92838f18c4d06"
+                "reference": "406c7b5f0fbe4f6a64155c0fe03b1adb34d01308"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/commerceguys/addressing/zipball/8b1bcd45971733e8f4224e539cb92838f18c4d06",
-                "reference": "8b1bcd45971733e8f4224e539cb92838f18c4d06",
+                "url": "https://api.github.com/repos/commerceguys/addressing/zipball/406c7b5f0fbe4f6a64155c0fe03b1adb34d01308",
+                "reference": "406c7b5f0fbe4f6a64155c0fe03b1adb34d01308",
                 "shasum": ""
             },
             "require": {
-                "doctrine/collections": "^1.2",
+                "doctrine/collections": "^1.2 || ^2.0",
                 "php": ">=7.3"
             },
             "require-dev": {
@@ -130,9 +130,9 @@
             ],
             "support": {
                 "issues": "https://github.com/commerceguys/addressing/issues",
-                "source": "https://github.com/commerceguys/addressing/tree/v1.4.1"
+                "source": "https://github.com/commerceguys/addressing/tree/v1.4.2"
             },
-            "time": "2022-08-09T11:42:51+00:00"
+            "time": "2023-02-15T10:11:14+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -212,16 +212,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "2.2.15",
+            "version": "2.2.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "509dcbd4f8d459e0ef2ef223a231b8c31bceed78"
+                "reference": "30ff21a9af9a10845436abaeeb0bb7276e996d24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/509dcbd4f8d459e0ef2ef223a231b8c31bceed78",
-                "reference": "509dcbd4f8d459e0ef2ef223a231b8c31bceed78",
+                "url": "https://api.github.com/repos/composer/composer/zipball/30ff21a9af9a10845436abaeeb0bb7276e996d24",
+                "reference": "30ff21a9af9a10845436abaeeb0bb7276e996d24",
                 "shasum": ""
             },
             "require": {
@@ -291,7 +291,7 @@
             "support": {
                 "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/composer/issues",
-                "source": "https://github.com/composer/composer/tree/2.2.15"
+                "source": "https://github.com/composer/composer/tree/2.2.19"
             },
             "funding": [
                 {
@@ -307,7 +307,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-01T10:01:26+00:00"
+            "time": "2023-02-04T13:54:48+00:00"
         },
         {
             "name": "composer/metadata-minifier",
@@ -678,21 +678,21 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "4.3.6.1",
+            "version": "4.3.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/craftcms/cms.git",
-                "reference": "c3afbef706beafbe71b64735e1124ff345dc6e48"
+                "reference": "af40a2d6e0557f6a600a22f29f1660639cd11b81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/c3afbef706beafbe71b64735e1124ff345dc6e48",
-                "reference": "c3afbef706beafbe71b64735e1124ff345dc6e48",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/af40a2d6e0557f6a600a22f29f1660639cd11b81",
+                "reference": "af40a2d6e0557f6a600a22f29f1660639cd11b81",
                 "shasum": ""
             },
             "require": {
                 "commerceguys/addressing": "^1.2",
-                "composer/composer": "2.2.15",
+                "composer/composer": "2.2.19",
                 "craftcms/oauth2-craftid": "~1.0.0",
                 "craftcms/plugin-installer": "~1.5.6",
                 "craftcms/server-check": "~2.1.2",
@@ -792,7 +792,7 @@
                 "rss": "https://github.com/craftcms/cms/releases.atom",
                 "source": "https://github.com/craftcms/cms"
             },
-            "time": "2023-01-10T00:55:43+00:00"
+            "time": "2023-02-17T22:32:58+00:00"
         },
         {
             "name": "craftcms/html-field",
@@ -1628,24 +1628,24 @@
         },
         {
             "name": "graham-campbell/result-type",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/GrahamCampbell/Result-Type.git",
-                "reference": "a878d45c1914464426dc94da61c9e1d36ae262a8"
+                "reference": "672eff8cf1d6fe1ef09ca0f89c4b287d6a3eb831"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/GrahamCampbell/Result-Type/zipball/a878d45c1914464426dc94da61c9e1d36ae262a8",
-                "reference": "a878d45c1914464426dc94da61c9e1d36ae262a8",
+                "url": "https://api.github.com/repos/GrahamCampbell/Result-Type/zipball/672eff8cf1d6fe1ef09ca0f89c4b287d6a3eb831",
+                "reference": "672eff8cf1d6fe1ef09ca0f89c4b287d6a3eb831",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2.5 || ^8.0",
-                "phpoption/phpoption": "^1.9"
+                "phpoption/phpoption": "^1.9.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "^8.5.28 || ^9.5.21"
+                "phpunit/phpunit": "^8.5.32 || ^9.6.3 || ^10.0.12"
             },
             "type": "library",
             "autoload": {
@@ -1674,7 +1674,7 @@
             ],
             "support": {
                 "issues": "https://github.com/GrahamCampbell/Result-Type/issues",
-                "source": "https://github.com/GrahamCampbell/Result-Type/tree/v1.1.0"
+                "source": "https://github.com/GrahamCampbell/Result-Type/tree/v1.1.1"
             },
             "funding": [
                 {
@@ -1686,7 +1686,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-30T15:56:11+00:00"
+            "time": "2023-02-25T20:23:15+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -2021,16 +2021,16 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v9.48.0",
+            "version": "v9.52.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
-                "reference": "56c63a83d985a3bc6db31f4bd8b3b297dc40284e"
+                "reference": "0168d0e44ea0c4fe5451fe08cde7049b9e9f9741"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/collections/zipball/56c63a83d985a3bc6db31f4bd8b3b297dc40284e",
-                "reference": "56c63a83d985a3bc6db31f4bd8b3b297dc40284e",
+                "url": "https://api.github.com/repos/illuminate/collections/zipball/0168d0e44ea0c4fe5451fe08cde7049b9e9f9741",
+                "reference": "0168d0e44ea0c4fe5451fe08cde7049b9e9f9741",
                 "shasum": ""
             },
             "require": {
@@ -2072,20 +2072,20 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-01-16T20:40:21+00:00"
+            "time": "2023-02-22T11:32:27+00:00"
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v9.48.0",
+            "version": "v9.52.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/conditionable.git",
-                "reference": "5b40f51ccb07e0e7b1ec5559d8db9e0e2dc51883"
+                "reference": "bea24daa0fa84b7e7b0d5b84f62c71b7e2dc3364"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/conditionable/zipball/5b40f51ccb07e0e7b1ec5559d8db9e0e2dc51883",
-                "reference": "5b40f51ccb07e0e7b1ec5559d8db9e0e2dc51883",
+                "url": "https://api.github.com/repos/illuminate/conditionable/zipball/bea24daa0fa84b7e7b0d5b84f62c71b7e2dc3364",
+                "reference": "bea24daa0fa84b7e7b0d5b84f62c71b7e2dc3364",
                 "shasum": ""
             },
             "require": {
@@ -2118,20 +2118,20 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-07-29T19:44:19+00:00"
+            "time": "2023-02-01T21:42:32+00:00"
         },
         {
             "name": "illuminate/contracts",
-            "version": "v9.48.0",
+            "version": "v9.52.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "4b79cdbda0a6e8fe520fccc0e8c4ba1fed2a2d07"
+                "reference": "44f65d723b13823baa02ff69751a5948bde60c22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/4b79cdbda0a6e8fe520fccc0e8c4ba1fed2a2d07",
-                "reference": "4b79cdbda0a6e8fe520fccc0e8c4ba1fed2a2d07",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/44f65d723b13823baa02ff69751a5948bde60c22",
+                "reference": "44f65d723b13823baa02ff69751a5948bde60c22",
                 "shasum": ""
             },
             "require": {
@@ -2166,11 +2166,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-01-16T17:30:57+00:00"
+            "time": "2023-02-08T14:36:30+00:00"
         },
         {
             "name": "illuminate/macroable",
-            "version": "v9.48.0",
+            "version": "v9.52.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
@@ -2491,16 +2491,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "2.8.0",
+            "version": "2.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "720488632c590286b88b80e62aa3d3d551ad4a50"
+                "reference": "f259e2b15fb95494c83f52d3caad003bbf5ffaa1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/720488632c590286b88b80e62aa3d3d551ad4a50",
-                "reference": "720488632c590286b88b80e62aa3d3d551ad4a50",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/f259e2b15fb95494c83f52d3caad003bbf5ffaa1",
+                "reference": "f259e2b15fb95494c83f52d3caad003bbf5ffaa1",
                 "shasum": ""
             },
             "require": {
@@ -2515,7 +2515,7 @@
                 "doctrine/couchdb": "~1.0@dev",
                 "elasticsearch/elasticsearch": "^7 || ^8",
                 "ext-json": "*",
-                "graylog2/gelf-php": "^1.4.2",
+                "graylog2/gelf-php": "^1.4.2 || ^2@dev",
                 "guzzlehttp/guzzle": "^7.4",
                 "guzzlehttp/psr7": "^2.2",
                 "mongodb/mongodb": "^1.8",
@@ -2577,7 +2577,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/2.8.0"
+                "source": "https://github.com/Seldaek/monolog/tree/2.9.1"
             },
             "funding": [
                 {
@@ -2589,7 +2589,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-24T11:55:47+00:00"
+            "time": "2023-02-06T13:44:46+00:00"
         },
         {
             "name": "nystudio107/craft-code-editor",
@@ -2710,16 +2710,16 @@
         },
         {
             "name": "nystudio107/craft-seomatic",
-            "version": "4.0.19",
+            "version": "4.0.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nystudio107/craft-seomatic.git",
-                "reference": "d0162e1b19e77877def4038ff6c0a39d5821a795"
+                "reference": "b636d0e37de414ea2d1eedd1c9f1fe4b91ab16e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nystudio107/craft-seomatic/zipball/d0162e1b19e77877def4038ff6c0a39d5821a795",
-                "reference": "d0162e1b19e77877def4038ff6c0a39d5821a795",
+                "url": "https://api.github.com/repos/nystudio107/craft-seomatic/zipball/b636d0e37de414ea2d1eedd1c9f1fe4b91ab16e5",
+                "reference": "b636d0e37de414ea2d1eedd1c9f1fe4b91ab16e5",
                 "shasum": ""
             },
             "require": {
@@ -2787,7 +2787,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-01-11T15:07:16+00:00"
+            "time": "2023-02-10T04:51:55+00:00"
         },
         {
             "name": "nystudio107/craft-vite",
@@ -3123,24 +3123,24 @@
         },
         {
             "name": "phpoption/phpoption",
-            "version": "1.9.0",
+            "version": "1.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/php-option.git",
-                "reference": "dc5ff11e274a90cc1c743f66c9ad700ce50db9ab"
+                "reference": "dd3a383e599f49777d8b628dadbb90cae435b87e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/dc5ff11e274a90cc1c743f66c9ad700ce50db9ab",
-                "reference": "dc5ff11e274a90cc1c743f66c9ad700ce50db9ab",
+                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/dd3a383e599f49777d8b628dadbb90cae435b87e",
+                "reference": "dd3a383e599f49777d8b628dadbb90cae435b87e",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2.5 || ^8.0"
             },
             "require-dev": {
-                "bamarni/composer-bin-plugin": "^1.8",
-                "phpunit/phpunit": "^8.5.28 || ^9.5.21"
+                "bamarni/composer-bin-plugin": "^1.8.2",
+                "phpunit/phpunit": "^8.5.32 || ^9.6.3 || ^10.0.12"
             },
             "type": "library",
             "extra": {
@@ -3182,7 +3182,7 @@
             ],
             "support": {
                 "issues": "https://github.com/schmittjoh/php-option/issues",
-                "source": "https://github.com/schmittjoh/php-option/tree/1.9.0"
+                "source": "https://github.com/schmittjoh/php-option/tree/1.9.1"
             },
             "funding": [
                 {
@@ -3194,7 +3194,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-30T15:51:26+00:00"
+            "time": "2023-02-25T19:38:58+00:00"
         },
         {
             "name": "pixelandtonic/imagine",
@@ -4476,16 +4476,16 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v6.0.19",
+            "version": "v6.0.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "5effe441679acb403442fdd48d262ffac6fac542"
+                "reference": "541c04560da1875f62c963c3aab6ea12a7314e11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/5effe441679acb403442fdd48d262ffac6fac542",
-                "reference": "5effe441679acb403442fdd48d262ffac6fac542",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/541c04560da1875f62c963c3aab6ea12a7314e11",
+                "reference": "541c04560da1875f62c963c3aab6ea12a7314e11",
                 "shasum": ""
             },
             "require": {
@@ -4540,7 +4540,7 @@
             "description": "Provides powerful methods to fetch HTTP resources synchronously or asynchronously",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-client/tree/v6.0.19"
+                "source": "https://github.com/symfony/http-client/tree/v6.0.20"
             },
             "funding": [
                 {
@@ -4556,7 +4556,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-13T08:34:10+00:00"
+            "time": "2023-01-30T15:41:07+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
@@ -6132,16 +6132,16 @@
         },
         {
             "name": "voku/anti-xss",
-            "version": "4.1.39",
+            "version": "4.1.41",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voku/anti-xss.git",
-                "reference": "64a59ba4744e6722866ff3440d93561da9e85cd0"
+                "reference": "55a403436494e44a2547a8d42de68e6cad4bca1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voku/anti-xss/zipball/64a59ba4744e6722866ff3440d93561da9e85cd0",
-                "reference": "64a59ba4744e6722866ff3440d93561da9e85cd0",
+                "url": "https://api.github.com/repos/voku/anti-xss/zipball/55a403436494e44a2547a8d42de68e6cad4bca1d",
+                "reference": "55a403436494e44a2547a8d42de68e6cad4bca1d",
                 "shasum": ""
             },
             "require": {
@@ -6187,7 +6187,7 @@
             ],
             "support": {
                 "issues": "https://github.com/voku/anti-xss/issues",
-                "source": "https://github.com/voku/anti-xss/tree/4.1.39"
+                "source": "https://github.com/voku/anti-xss/tree/4.1.41"
             },
             "funding": [
                 {
@@ -6211,7 +6211,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-03-08T17:03:58+00:00"
+            "time": "2023-02-12T15:56:55+00:00"
         },
         {
             "name": "voku/arrayy",
@@ -7564,16 +7564,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.11.11",
+            "version": "v0.11.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "ba67f2d26278ec9266a5cfe0acba33a8ca1277ae"
+                "reference": "52cb7c47d403c31c0adc9bf7710fc355f93c20f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/ba67f2d26278ec9266a5cfe0acba33a8ca1277ae",
-                "reference": "ba67f2d26278ec9266a5cfe0acba33a8ca1277ae",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/52cb7c47d403c31c0adc9bf7710fc355f93c20f7",
+                "reference": "52cb7c47d403c31c0adc9bf7710fc355f93c20f7",
                 "shasum": ""
             },
             "require": {
@@ -7634,9 +7634,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
-                "source": "https://github.com/bobthecow/psysh/tree/v0.11.11"
+                "source": "https://github.com/bobthecow/psysh/tree/v0.11.12"
             },
-            "time": "2023-01-23T16:14:59+00:00"
+            "time": "2023-01-29T21:24:40+00:00"
         },
         {
             "name": "yiisoft/yii2-shell",

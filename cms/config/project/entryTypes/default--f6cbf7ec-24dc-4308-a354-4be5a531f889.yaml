@@ -43,7 +43,17 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            elementCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\TextFieldConditionRule
+                  fieldUid: a78be629-b301-4cb0-ac48-2dae826afbf2 # Testimonial Copy
+                  operator: notempty
+                  uid: 244e6ddc-32e5-4c6d-9820-092d25905b67
+                  value: ''
+              elementType: craft\elements\Entry
+              fieldContext: global
             fieldUid: 2a20ed3b-8492-445a-bb35-f3adbfd6b78c # Testimonial Byline
             instructions: null
             label: null

@@ -1,4 +1,4 @@
-dateModified: 1675106987
+dateModified: 1677682687
 elementSources:
   craft\elements\Entry:
     -
@@ -54,27 +54,6 @@ elementSources:
         - asc
       key: 'custom:9b27ad66-750b-443f-b1da-0f018b21b5b9'
       label: 'My Stuff'
-      tableAttributes: '-'
-      type: custom
-    -
-      condition:
-        class: craft\elements\conditions\entries\EntryCondition
-        conditionRules:
-          -
-            class: craft\elements\conditions\DateCreatedConditionRule
-            endDate: null
-            periodType: daysAgo
-            periodValue: null
-            rangeType: today
-            startDate: null
-            uid: 8caced5f-5865-47ac-b5e1-0725e3e936f9
-        elementType: craft\elements\Entry
-        fieldContext: global
-      defaultSort:
-        - title
-        - asc
-      key: 'custom:3fc06fef-aba8-4a8e-a40d-9e1f1ba33b42'
-      label: 'Today''s Work'
       tableAttributes: '-'
       type: custom
 email:

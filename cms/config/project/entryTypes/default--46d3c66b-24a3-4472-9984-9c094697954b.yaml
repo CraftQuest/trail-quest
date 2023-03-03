@@ -60,7 +60,17 @@ fieldLayouts:
             uid: b3f68f95-32bc-4588-9620-b4235c1f4524
             userCondition: null
           -
-            elementCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\RelationalFieldConditionRule
+                  elementId: null
+                  fieldUid: 5b4c84db-5412-44b1-a47f-a6e46f8fb8b6 # Location
+                  operator: notempty
+                  uid: db378519-2bf2-43bc-ac7a-abf8221b2ec4
+              elementType: craft\elements\Entry
+              fieldContext: global
             fieldUid: 135d7d84-4a62-4878-b0ee-2b68ceb36e5b # Content Builder
             instructions: null
             label: null
@@ -75,7 +85,17 @@ fieldLayouts:
         uid: 65967dd5-d349-4697-9e13-29d17f2a6ae1
         userCondition: null
       -
-        elementCondition: null
+        elementCondition:
+          class: craft\elements\conditions\entries\EntryCondition
+          conditionRules:
+            -
+              class: craft\fields\conditions\RelationalFieldConditionRule
+              elementId: null
+              fieldUid: 5b4c84db-5412-44b1-a47f-a6e46f8fb8b6 # Location
+              operator: notempty
+              uid: 6855e33b-eb82-4834-9e27-dfec3330da43
+          elementType: craft\elements\Entry
+          fieldContext: global
         elements:
           -
             elementCondition: null
